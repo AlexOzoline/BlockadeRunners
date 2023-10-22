@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4845322780605598031
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4845322780605598024}
+  - component: {fileID: 4845322780605598025}
+  m_Layer: 5
+  m_Name: enginesObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 2147483647
+  m_IsActive: 1
+--- !u!224 &4845322780605598024
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4845322780605598031}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &4845322780605598025
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4845322780605598031}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1694180199e354c00bc2521977648d38, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cannonsText2: {fileID: 0}
+  enginesText2: {fileID: 0}
+  cannonsDropdown: {fileID: 0}
+  enginesDropdown: {fileID: 0}
+  cannonsObject: {fileID: 4764931773517641709, guid: ab0fc5fc8c76d410b8f0956629938482, type: 3}
+  enginesObject: {fileID: 4845322780605598031}
+  heavyCannonsPrefab: {fileID: 8782580448621750805, guid: f425f2de6b6809d428e0bb2f8c24c5ae, type: 3}
+  quickCannonsPrefab: {fileID: 8782580448621750805, guid: bd29f7cf88a71f4478aee4ca9c092fea, type: 3}
+  standardCannonsPrefab: {fileID: 8782580448621750805, guid: 01ed2ba1e82f1614e958e2a9f7c66420, type: 3}
+  heavyEnginesPrefab: {fileID: 6256476983458563587, guid: 112af757ece273845a4139ad0bbc2720, type: 3}
+  lightEnginesPrefab: {fileID: 6256476983458563587, guid: f40d84de2c539034fb9e235d0059244a, type: 3}
+  standardEnginesPrefab: {fileID: 6256476983458563587, guid: 1eac1b841804c2e48b9231deae73f89e, type: 3}
